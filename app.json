@@ -1,0 +1,1 @@
+{"name":"Learn_to_build_an_app","repository":"https://github.com/ragothbala/learn_to_build_an_app","env":{"CLOUDINARY_CLOUD_NAME":{"required":true},"CLOUDINARY_API_KEY":{"required":true},"CLOUDINARY_API_SECRET":{"required":true},"ROLLBAR_ACCESS_TOKEN":{"required":true}}}
