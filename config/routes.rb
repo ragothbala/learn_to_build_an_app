@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  ActiveAdmin.routes(self)
   root :to => "bases#index"
   # Routes for the Team resource:
   # CREATE
