@@ -17,7 +17,7 @@
       <% @bases.each do |basis| %>
       <tr>
         <td><%= basis.name %></td>
-        <td><%= basis.team_id %></td>
+        <td><%= basis.team.created_at %></td>
         <td>
           <a href="/bases/<%= basis.id %>" class="btn btn-primary">Show</a>
           <a href="/bases/<%= basis.id %>/edit" class="btn btn-warning">Edit</a>
