@@ -1,6 +1,6 @@
 class BasesController < ApplicationController
   def index
-    @bases = Basis.all
+    @bases = Basis.page(params[:page])
 
     render("bases/index.html.erb")
   end
