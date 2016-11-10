@@ -9,7 +9,13 @@
       <dd><%= @basis.name %></dd>
 
       <dt>Team</dt>
-      <dd><%= @basis.team_id %></dd>
+      <dd>
+        <% if @basis.team.present? %>
+          <a href="/teams/<%= @basis.team_id %>">
+            <%= @basis.team.created_at %>
+          </a>
+        <% end %>
+      </dd>
 
     </dl>
 
