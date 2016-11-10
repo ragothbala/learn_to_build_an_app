@@ -6,6 +6,7 @@ class TeamsController < ApplicationController
   end
 
   def show
+    @basis = Basis.new
     @team = Team.find(params[:id])
 
     render("teams/show.html.erb")
